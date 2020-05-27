@@ -1,4 +1,4 @@
-﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,ObjectId,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
+﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,FID,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
 3,Niedersachsen,SK Wolfsburg,A60-A79,M,1,0,465283,2020-03-26,03103,2020-03-29,0,-9
 3,Niedersachsen,SK Wolfsburg,A60-A79,M,4,0,465284,2020-03-27,03103,2020-03-29,1,-9
 3,Niedersachsen,SK Wolfsburg,A60-A79,W,1,1,465285,2020-03-18,03103,2020-03-29,0,0

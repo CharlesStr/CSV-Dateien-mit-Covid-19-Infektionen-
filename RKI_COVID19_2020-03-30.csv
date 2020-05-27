@@ -1,4 +1,4 @@
-﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,ObjectId,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
+﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,FID,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
 3,Niedersachsen,SK Braunschweig,A60-A79,W,3,0,487440,2020-03-28,03101,2020-03-30,1,-9
 3,Niedersachsen,SK Braunschweig,A80+,M,1,0,487441,2020-03-23,03101,2020-03-30,0,-9
 3,Niedersachsen,SK Braunschweig,A80+,M,1,0,487442,2020-03-28,03101,2020-03-30,1,-9

@@ -1,4 +1,4 @@
-﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,ObjectId,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
+﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,FID,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
 3,Niedersachsen,LK Goslar,A60-A79,M,2,0,444297,2020-03-13,03153,2020-03-28,0,-9
 3,Niedersachsen,LK Goslar,A60-A79,M,1,0,444298,2020-03-18,03153,2020-03-28,0,-9
 3,Niedersachsen,LK Goslar,A60-A79,M,1,0,444299,2020-03-23,03153,2020-03-28,0,-9

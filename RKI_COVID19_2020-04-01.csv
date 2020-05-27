@@ -1,4 +1,4 @@
-﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,ObjectId,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
+﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,FID,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
 1,Schleswig-Holstein,SK Flensburg,A15-A34,M,1,0,611650,2020-03-14,01001,2020-04-01,0,-9
 1,Schleswig-Holstein,SK Flensburg,A15-A34,M,2,0,611651,2020-03-19,01001,2020-04-01,0,-9
 1,Schleswig-Holstein,SK Flensburg,A15-A34,M,1,0,611652,2020-03-21,01001,2020-04-01,0,-9

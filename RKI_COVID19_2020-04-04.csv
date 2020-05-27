@@ -1,4 +1,4 @@
-﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,ObjectId,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
+﻿IdBundesland,Bundesland,Landkreis,Altersgruppe,Geschlecht,AnzahlFall,AnzahlTodesfall,FID,Meldedatum,IdLandkreis,Datenstand,NeuerFall,NeuerTodesfall
 3,Niedersachsen,LK Vechta,A60-A79,M,4,0,706589,2020-03-30,03460,2020-04-04,0,-9
 3,Niedersachsen,LK Vechta,A60-A79,M,2,0,706590,2020-03-31,03460,2020-04-04,0,-9
 3,Niedersachsen,LK Vechta,A60-A79,M,2,0,706591,2020-04-01,03460,2020-04-04,0,-9
