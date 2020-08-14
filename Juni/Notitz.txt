@@ -1,0 +1,5 @@
+Access als Rapid Solution hat sich angeboten für Abfragen und Datenaustausch mit Excel.
+Es werden keine Makros verwendet. Nur die nackten Daten zur Weiterverarbeitung
+Die Datenbank enthält eine Verknüpfung (entsprechend der Spezifikation) der RKI Daten vom 01.06.2020. 
+Pfad  X:\CoV19\Juni\RKI_COVID19_2020-06-01.csv
+Abfragen folgen. 
