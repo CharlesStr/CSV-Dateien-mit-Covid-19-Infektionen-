@@ -1,0 +1,4 @@
+SELECT RkI_FallZ.Datenstand, Sum(RkI_FallZ.AnzahlFall) AS SummevonAnzahlFall
+FROM RkI_FallZ
+WHERE (((RkI_FallZ.NeuerFall)=0 Or (RkI_FallZ.NeuerFall)=1))
+GROUP BY RkI_FallZ.Datenstand;
