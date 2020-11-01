@@ -1,0 +1,4 @@
+SELECT RkI_FallZ.Datenstand, Sum(RkI_FallZ.AnzahlGenesen) AS AnzahlGenesen
+FROM RkI_FallZ
+WHERE (((RkI_FallZ.NeuGenesen)=0 Or (RkI_FallZ.NeuGenesen)=1))
+GROUP BY RkI_FallZ.Datenstand;
