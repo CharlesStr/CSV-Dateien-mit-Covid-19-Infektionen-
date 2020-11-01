@@ -1,0 +1,4 @@
+SELECT RkI_FallZ.Datenstand, Sum(RkI_FallZ.AnzahlTodesfall) AS SummevonAnzahlTodesfall
+FROM RkI_FallZ
+WHERE (((RkI_FallZ.NeuerTodesfall)=0 Or (RkI_FallZ.NeuerTodesfall)=1))
+GROUP BY RkI_FallZ.Datenstand;
