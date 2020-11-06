@@ -1,0 +1,8 @@
+entgegen dem Orginal sind die Felder 
+Meldedatum
+Datenstand
+Refdatum
+im einheitlichen Format
+JJJJ/MM/TT
+Zeitpunkt der erstellung des Datenatztes (Datenstand) ist immer 00.00:00 Uhr
+und wie zu sehen gezippt, da Dateien groesser als 25 MM nicht auf GitHib hochgeladen werden koennen.(zumindest n der Free Version)
