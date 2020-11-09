@@ -1,4 +1,4 @@
-SELECT RkI_FallZ.Datenstand, Sum(RkI_FallZ.AnzahlTodesfall) AS AnzahlTodesfall
-FROM RkI_FallZ
-WHERE (((RkI_FallZ.NeuerTodesfall)=0 Or (RkI_FallZ.NeuerTodesfall)=1))
-GROUP BY RkI_FallZ.Datenstand;
+SELECT First(RKI_COVID19.Datenstand) AS ErsterWertvonDatenstand, Sum(RKI_COVID19.AnzahlTodesfall) AS AnzahlTodesfall
+FROM RKI_COVID19
+WHERE (((RKI_COVID19.NeuerTodesfall)=0 Or (RKI_COVID19.NeuerTodesfall)=1));
+
