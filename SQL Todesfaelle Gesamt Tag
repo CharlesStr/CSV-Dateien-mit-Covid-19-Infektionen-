@@ -1,5 +1,0 @@
-SELECT First(RKI_COVID19.Datenstand) AS ErsterWertvonDatenstand, Sum(RKI_COVID19.AnzahlTodesfall) AS SummevonAnzahlTodesfall
-FROM RKI_COVID19
-WHERE (((RKI_COVID19.NeuerTodesfall)=-1 Or (RKI_COVID19.NeuerTodesfall)=1));
-
-
