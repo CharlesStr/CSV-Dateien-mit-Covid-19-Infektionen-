@@ -7,3 +7,9 @@ Eine genaue Beschreibung des Datensatzaufbaus siehe https://www.arcgis.com/home/
 **Robert Koch-Institut (RKI), dl-de/by-2-0**
 
 Die Daten sind die „Fallzahlen in Deutschland“ des [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html) und stehen unter der [Open Data Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0) zur Verfügung.
+
+Weitere Seiten/Quellen:
+
+https://github.com/ihucos/rki-covid19-data
+https://github.com/micb25/RKI_COVID19_DATA/
+
