@@ -1,15 +1,15 @@
 # fix headers
-#find . -name '*.csv' -exec sed -i '1s#Meldedatum2#Meldedatum#g' {} \;  				# Meldedatum2 -> Meldedatum 
-#find . -name '*.csv' -exec sed -i '1s#Referenzdatum#Refdatum#g' {} \;  				# Referenzdatum -> Refdatum
-#find . -name '*.csv' -exec sed -i '1s#Refdatum2#Refdatum#g' {} \;                                  	# Refdatum2 -> Refdatum
-#find . -name '*.csv' -exec sed -i '1s#Landkreis ID#IdLandkreis#g' {} \;  				# Landkreis ID -> IdLandkreis
-#find . -name '*.csv' -exec sed -i '1s#Neuer Todesfall#NeuerTodesfall#g' {} \;  			# Neuer Todesfall -> NeuerTodesfall
-#find . -name '*.csv' -exec sed -i '1s#Neuer Fall#NeuerFall#g' {} \;  				# Neuer Fall -> NeuerFall
-#find . -name '*.csv' -exec sed -i '1s#Neu Genesen#NeuGenesen#g' {} \;  				# Neu Genesen -> NeuGenesen
-#find . -name '*.csv' -exec sed -i '1s#Anzahl Genesen#AnzahlGenesen#g' {} \;  			# Anzahl Genesen -> AnzahlGenesen
-#find . -name '*.csv' -exec sed -i '1s#Meldedatum2#Meldedatum#g' {} \;  				# Meldedatum2 -> Meldedatum
-#find . -name '*.csv' -exec sed -i '1s#ObjectId#FID#g' {} \; 					# ObjectID -> FID
-#find . -name '*.csv' -exec sed -i '1s#"##g'	{} \;							# " -> 
+find . -name '*.csv' -exec sed -i '1s#Meldedatum2#Meldedatum#g' {} \;  				# Meldedatum2 -> Meldedatum 
+find . -name '*.csv' -exec sed -i '1s#Referenzdatum#Refdatum#g' {} \;  				# Referenzdatum -> Refdatum
+find . -name '*.csv' -exec sed -i '1s#Refdatum2#Refdatum#g' {} \;                                  	# Refdatum2 -> Refdatum
+find . -name '*.csv' -exec sed -i '1s#Landkreis ID#IdLandkreis#g' {} \;  				# Landkreis ID -> IdLandkreis
+find . -name '*.csv' -exec sed -i '1s#Neuer Todesfall#NeuerTodesfall#g' {} \;  			# Neuer Todesfall -> NeuerTodesfall
+find . -name '*.csv' -exec sed -i '1s#Neuer Fall#NeuerFall#g' {} \;  				# Neuer Fall -> NeuerFall
+find . -name '*.csv' -exec sed -i '1s#Neu Genesen#NeuGenesen#g' {} \;  				# Neu Genesen -> NeuGenesen
+find . -name '*.csv' -exec sed -i '1s#Anzahl Genesen#AnzahlGenesen#g' {} \;  			# Anzahl Genesen -> AnzahlGenesen
+find . -name '*.csv' -exec sed -i '1s#Meldedatum2#Meldedatum#g' {} \;  				# Meldedatum2 -> Meldedatum
+find . -name '*.csv' -exec sed -i '1s#ObjectId#FID#g' {} \; 					# ObjectID -> FID
+find . -name '*.csv' -exec sed -i '1s#"##g'	{} \;							# " -> 
 
 echo "header gefixt"
 
@@ -30,20 +30,24 @@ done
 echo "encoding gefixt"
 
 # fix korrupte umlaute und scharfes s
-#find . -name "*.csv" -exec sed -i 's#├╝#ü#g' {} \; # ü z.b. Lübeck oder Neumünster
-#find . -name "*.csv" -exec sed -i 's#├ƒ#ß#g' {} \; # ß
-#find . -name "*.csv" -exec sed -i 's#├Â#ö#g' {} \; # ö
-#find . -name "*.csv" -exec sed -i 's#├ñ#ä#g' {} \; # ä
+find . -name "*.csv" -exec sed -i 's#├╝#ü#g' {} \; # ü z.b. Lübeck oder Neumünster
+find . -name "*.csv" -exec sed -i 's#Ã¼#ü#g' {} \; # ü z.b. Fürth 
+find . -name "*.csv" -exec sed -i 's#├ƒ#ß#g' {} \; # ß
+find . -name "*.csv" -exec sed -i 's#ÃŸ#ß#g' {} \; # ß z.B. Spree-Neiße
+find . -name "*.csv" -exec sed -i 's#├Â#ö#g' {} \; # ö
+find . -name "*.csv" -exec sed -i 's#Ã¶#ö#g' {} \; # ö z.B. Tempelhof-Schöneberg
+find . -name "*.csv" -exec sed -i 's#├ñ#ä#g' {} \; # ä 
+find . -name "*.csv" -exec sed -i 's#Ã¤#ä#g' {} \; # ä
 
 echo "korrupte umlaute gefixt"
 
 # entferne byte order mark
-#find . -name '*.csv' -exec sed -i '1s/^\xEF\xBB\xBF//' {} \;
+find . -name '*.csv' -exec sed -i '1s/^\xEF\xBB\xBF//' {} \;
 
 echo "bom entfernt"
 
 # entferne carriage return
-#find . -name '*.csv' -exec sed -i 's/\r$//' {} \;
+find . -name '*.csv' -exec sed -i 's/\r$//' {} \;
 
 echo "carriage return entfernt"
 
@@ -71,5 +75,4 @@ find . -name "*.csv" -exec grep -il "[0-9]\{4\}/[1,2,3][3-9]" {} \;
 
 # abschließende kontrolle datumsformat
 find . -name "*.csv" ! -exec grep -q '[0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}' {} \; -print
-
 
