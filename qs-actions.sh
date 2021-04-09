@@ -66,7 +66,7 @@ find . -name '*.csv' -exec sed -i -E 's#([0-9]{4})\/([0-9]{2})\/([0-9]{1}),#\1/\
 echo "datentypen korrigiert"
 
 # suche dateien mit falschem datumsformat
-echo "folgende dateien haben falsches datumsformat. manuelle korrektur erforderlich"
+echo "dateien haben ggf. falsches datumsformat. manuelle korrektur ist dann erforderlich. keine ausgabe bedeutet alles ist gut."
 find . -name "*.csv" -exec grep -il "[0-9]\{4\}/[1,2,3][3-9]" {} \;
 
 #sed -i -E 's#([0-9]{4})\/([0-9]{1,2})\/([0-9]{1,2})#\1/\3/\2#g' ./April/RKI_COVID19_2020-04-12.csv
@@ -74,5 +74,6 @@ find . -name "*.csv" -exec grep -il "[0-9]\{4\}/[1,2,3][3-9]" {} \;
 #sed -i -E 's#([0-9]{4})\/([0-9]{1,2})\/([0-9]{1,2})#\1/\3/\2#g' ./April/RKI_COVID19_2020-04-18.csv
 
 # abschließende kontrolle datumsformat
-find . -name "*.csv" ! -exec grep -q '[0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}' {} \; -print
+echo "abschliessende kontrolle des datumsformats. keine ausgabe bedeutet alles ist gut."
+find . -name "*.csv" ! -exec grep -q ',[0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\},' {} \; -print
 
