@@ -61,7 +61,7 @@ find . -name '*.csv' -exec sed -i -E 's#([0-9]{4})\-([0-9]{1,2})\-([0-9]{1,2})#\
 find . -name '*.csv' -exec sed -i -E 's#\.00##g' {} \;
 # Datumswerte mit 0en auffüllen
 find . -name '*.csv' -exec sed -i -E 's#([0-9]{4})\/([0-9]{1})\/([0-9]{1,2})#\1/0\2/\3#g' {} \;
-find . -name '*.csv' -exec sed -i -E 's#([0-9]{4})\/([0-9]{2})\/([0-9]{1})#\1/\2/0\3#g' {} \;
+find . -name '*.csv' -exec sed -i -E 's#([0-9]{4})\/([0-9]{2})\/([0-9]{1}),#\1/\2/0\3,#g' {} \; # komma ist noetig !
 
 echo "datentypen korrigiert"
 
