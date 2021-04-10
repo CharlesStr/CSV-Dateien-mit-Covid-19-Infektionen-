@@ -61,8 +61,8 @@ echo "carriage return entfernt"
 #fix date types
 find . -name "$files" -exec sed -i -E 's#([0-9]{2})\.([0-9]{2})\.([0-9]{4})#\3/\2/\1#g' {} \;
 find . -name "$files" -exec sed -i -E 's# 00\:00\:00\+00##g' {} \;
-find . -name "$files" -exec sed -i -E 's# 00\:00\:00##g' {} \;
 find . -name "$files" -exec sed -i -E 's#T00\:00\:00\.000Z##g' {} \;
+find . -name "$files" -exec sed -i -E 's# 00\:00(\:00){0,1}##g' {} \;
 find . -name "$files" -exec sed -i -E 's#, [0-9]{2}\:[0-9]{2} Uhr##g' {} \;
 find . -name "$files" -exec sed -i -E 's#([0-9]{1,2})\/([0-9]{1,2})\/([0-9]{4})#\3/\2/\1#g' {} \;
 find . -name "$files" -exec sed -i -E 's#([0-9]{1,2})\.([0-9]{1,2})\.([0-9]{4})#\3/\2/\1#g' {} \;
