@@ -4,7 +4,10 @@ USER=rki
 
 PASS=rki
 
-find .  -name "*.csv" | while read file;
+# Skript ohne Parameter wirkt auf alle CSV-Dateien(*.csv), sonst nur auf die CSV-Datei die als erster Parameter übergeben wird.
+[ -z "$1" ] && files="*.csv" || files=$(basename $1)
+
+find .  -name "$files" | while read file;
 do
     echo "################## Import $file ####################"
     header="$(head -n 1 $file)"
