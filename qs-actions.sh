@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Skript ohne Parameter wirkt auf alle CSV-Dateien(*.csv), sonst nur auf die CSV-Datei die als erster Parameter übergeben wird.
-[ -z "$1" ] && files="*.csv" || files=$1
+[ -z "$1" ] && files="*.csv" || files=$(basename $1)
 
 echo $files
 
@@ -62,6 +62,7 @@ echo "carriage return entfernt"
 find . -name "$files" -exec sed -i -E 's#([0-9]{2})\.([0-9]{2})\.([0-9]{4})#\3/\2/\1#g' {} \;
 find . -name "$files" -exec sed -i -E 's# 00\:00\:00\+00##g' {} \;
 find . -name "$files" -exec sed -i -E 's# 00\:00\:00##g' {} \;
+find . -name "$files" -exec sed -i -E 's#, [0-9]{2}\:[0-9]{2} Uhr##g' {} \;
 find . -name "$files" -exec sed -i -E 's#([0-9]{1,2})\/([0-9]{1,2})\/([0-9]{4})#\3/\2/\1#g' {} \;
 find . -name "$files" -exec sed -i -E 's#([0-9]{1,2})\.([0-9]{1,2})\.([0-9]{4})#\3/\2/\1#g' {} \;
 find . -name "$files" -exec sed -i -E 's#([0-9]{4})\-([0-9]{1,2})\-([0-9]{1,2})#\1/\2/\3#g' {} \;
