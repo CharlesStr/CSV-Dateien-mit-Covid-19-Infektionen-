@@ -1,0 +1,30 @@
+IdBundesland	  Zahl
+Bundesland		  Text
+Landkreis		    Text
+Altersgruppe	  Text
+Geschlecht		  Text
+Geschlecht		  Zahl
+AnzahlTodesfall	Zahl
+FID				      Zahl
+Meldedatum		  Datum	JJJJ/MM/TT
+IdLandkreis		  Zahl
+Datenstand		  Datum	JJJJ/MM/TT
+
+ab 24.03.2020
+
+IdBundesland	  Zahl
+Bundesland		  Text
+Landkreis		    Text
+Altersgruppe	  Text
+Geschlecht		  Text
+Geschlecht	  	Zahl
+AnzahlTodesfall	Zahl
+FID				      Zahl
+Meldedatum		  Datum	JJJJ/MM/TT
+IdLandkreis		  Zahl
+Datenstand		  Datum	JJJJ/MM/TT
+NeuerFall      Zahl
+NeuerTodesfall  Zahl
+
+Siehe auch 
+https://www.arcgis.com/home/item.html?id=f10774f1c63e40168479a1feb6c7ca74
