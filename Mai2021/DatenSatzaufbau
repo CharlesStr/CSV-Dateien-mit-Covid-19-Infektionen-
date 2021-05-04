@@ -1,0 +1,18 @@
+FID							      Zahl
+IdBundesland				  Zahl
+Bundesland					  Kurzer Text
+Landkreis					    Kurzer Text
+Altersgruppe				  Kurzer Text
+Geschlecht					  Kurzer Text
+AnzahlFall					  Zahl
+AnzahlTodesfall			  Zahl
+Meldedatum					  Datum/Uhrzeit
+IdLandkreis					  Zahl
+Datenstand					  Datum/Uhrzeit
+NeuerFall					    Zahl
+NeuerTodesfall			  Zahl
+Refdatum					    Datum/Uhrzeit
+NeuGenesen					  Zahl
+AnzahlGenesen				  Zahl
+IstErkrankungsbeginn	Zahl
+Altersgruppe2				  Kurzer Text
