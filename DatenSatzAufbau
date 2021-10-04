@@ -5,4 +5,23 @@ Refdatum
 im einheitlichen Format
 JJJJ/MM/TT
 Zeitpunkt der erstellung des Datenatztes (Datenstand) ist immer 00.00:00 Uhr
-und wie zu sehen gezippt, da Dateien groesser als 25 MM nicht auf GitHib hochgeladen werden koennen.(zumindest n der Free Version)
+und wie zu sehen ab einer bestimmten groesse gezippt, da Dateien groesser als 25 MM nicht auf GitHib hochgeladen werden koennen.(zumindest n der Free Version)
+
+FID							      Zahl
+IdBundesland				  Zahl
+Bundesland					  Kurzer Text
+Landkreis					    Kurzer Text
+Altersgruppe				  Kurzer Text
+Geschlecht					  Kurzer Text
+AnzahlFall					  Zahl
+AnzahlTodesfall			  Zahl
+Meldedatum					  Datum/Uhrzeit JJJJ/MM/TT
+IdLandkreis					  Zahl
+Datenstand					  Datum/Uhrzeit JJJJ/MM/TT
+NeuerFall					    Zahl
+NeuerTodesfall			  Zahl
+Refdatum					    Datum/Uhrzeit JJJJ/MM/TT
+NeuGenesen					  Zahl
+AnzahlGenesen				  Zahl
+IstErkrankungsbeginn	Zahl
+Altersgruppe2	
