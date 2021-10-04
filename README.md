@@ -14,3 +14,5 @@ https://github.com/ihucos/rki-covid19-data
 
 https://github.com/micb25/RKI_COVID19_DATA/
 
+Als weitere Quelle mit Daten ab dem 2.April 2021 - täglich aktualisiert
+https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland
