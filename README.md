@@ -14,5 +14,8 @@ https://github.com/ihucos/rki-covid19-data
 
 https://github.com/micb25/RKI_COVID19_DATA/
 
-Als weitere Quelle mit Daten ab dem 2. April 2021 - täglich aktualisiert
+Als weitere Quelle:
+
+Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.4681153
+
 https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland
