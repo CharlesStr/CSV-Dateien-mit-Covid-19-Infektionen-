@@ -1,6 +1,5 @@
 # CSV-Dateien-mit-Covid-19-Infektionen-
-Ziel ist es, chronologisch alle CSV Dateien „Fallzahlen in Deutschland“ des Robert Koch-Institut (RKI) zusammenzustellen. Es ist jeder eingeladen noch fehlende Dateien hochzuladen.
-
+Ziel ist es, chronologisch alle CSV Dateien „Fallzahlen in Deutschland“ des Robert Koch-Institut (RKI) zusammenzustellen. die maximale Groesse für Upload Dateienist erreicht. November 2021 ist der letzte Stand. Aktuelle Tagesdaten gibt es aber auf der Seite des RKI. https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland
 Eine genaue Beschreibung des Datensatzaufbaus siehe https://www.arcgis.com/home/item.html?id=f10774f1c63e40168479a1feb6c7ca74. Die CSV Datei wird einmal täglich aktualisiert.
 
 ## Quellenvermerk
