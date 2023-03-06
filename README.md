@@ -1,5 +1,5 @@
 # CSV-Dateien-mit-Covid-19-Infektionen-
-Ziel ist es, chronologisch alle CSV Dateien ab 23.03.2021 „Fallzahlen in Deutschland“ des Robert Koch-Institut (RKI) zusammenzustellen. Die maximale Groesse für Upload Dateien ist jedoch  erreicht. Der 30 November 2021 ist der letzte Stand. Aktuelle Tagesdaten gibt es aber auf der Seite des RKI. https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland.  Die Quelle  der Datensaetze  der aktuellen Tagedaten durch die hilreiche community  (https://www.arcgis.com/home/item.html?id=f10774f1c63e40168479a1feb6c7ca74)  wurde leider eingestellt.
+Ziel ist es, chronologisch alle CSV Dateien ab 23.03.2021 „Fallzahlen in Deutschland“ des Robert Koch-Institut (RKI) zusammenzustellen. Die maximale Groesse für Upload Dateien ist jedoch  erreicht. Der 30 November 2021 ist der letzte Stand. Aktuelle Tagesdaten gibt es aber auf der Seite des RKI. https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland.  Meine  Quelle  der aktuellen Datensaetze durch die hilfreiche community  (https://www.arcgis.com/home/item.html?id=f10774f1c63e40168479a1feb6c7ca74), wurde leider eingestellt. (https://www.arcgis.com/home/index.html)
  der Datensaetze war zuletz
 
 ## Quellenvermerk
